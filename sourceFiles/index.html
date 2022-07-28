@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- link font awesome -->
+  <script src="https://kit.fontawesome.com/2c8cb0dcf3.js" crossorigin="anonymous"></script>
+  <!-- link css -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="../images/favicon_io (1)/favicon-32x32.png">
+  <!-- title -->
+  <title>Breath Relaxer</title>
+</head>
+
+<body>
+  <!-- lofi music (autoplay was not working on chrome! due to their policy. use firefox for full functionality)-->
+  <audio id="player" autoplay loop>
+    <source src="../lofiMusic/lofi.mp3" type="audio/mp3">
+  </audio>
+
+  <h1>&#10084 Breath Relaxer &#10084</h1>
+
+  <div class="container" id="container">
+    <div class="circle"></div>
+
+    <p id="text">Breath In!</p>
+
+    <div class="pointer-container">
+      <span class="pointer">
+
+      </span>
+    </div>
+
+    <div class="gradient-circle"></div>
+  </div>
+
+  <!-- link js  -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
